@@ -4,6 +4,6 @@ Docker for Anyproxy - a fully configurable http/https proxy in NodeJS, which off
 
 # RUN
 ```bash
-docker run -d --name anyproxy -p "8001:8001" -p "8002:8002" -p "8003:8003" -p "8088:8088" anyproxy
+docker run -d --name anyproxy -p "8001:8001" -p "8002:8002" -p "8003:8003" -p "8088:8088" 3apaxicom/anyproxy
 ```
 and open Web UI http://127.0.0.1:8002/
